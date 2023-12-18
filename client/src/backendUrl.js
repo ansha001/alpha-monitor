@@ -1,2 +1,4 @@
-const backend = "http://localhost:3005";
+require("dotenv").config();
+
+const backend = process.env.BACKEND_URL
 export default backend;
